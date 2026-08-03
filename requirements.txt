@@ -1,0 +1,11 @@
+# Core benchmark — the only hard requirements.
+numpy>=1.24
+scikit-learn>=1.3
+
+# Tests
+pytest>=7.4
+
+# Optional: real neural retrieval. Uncomment and rerun run_benchmark.py; the
+# dense leg and the reranker both upgrade automatically and the generated
+# report names the model it used.
+# sentence-transformers>=2.6
